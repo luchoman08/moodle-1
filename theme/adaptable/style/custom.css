@@ -1,0 +1,382 @@
+/*
+* This file is part of Moodle - http://moodle.org/
+*
+* Moodle is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* Moodle is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+*
+*
+* Adaptable Custom Style sheet
+*
+* @package    theme_adaptable
+* @copyright  2015-2016 Jeremy Hopkins (Coventry University)
+* @copyright  2015-2017 Fernando Acedo (3-bits.com)
+* @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+*
+*/
+
+
+/* Custom CSS Settings */
+/* Add the CSS styles from the CSS custom box */
+
+[[setting:customcss]]
+
+.page-container{
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+  align-items:flex-start;
+}
+.page-container > nav.navbar{
+  min-width:300px;
+  width:30%;
+}
+
+.fa-check-square{
+  color: #d3122a;
+  margin-left:10px;
+}
+
+.page-container > nav.navbar > ul{
+  font-family: "Roboto", sans-serif;
+  list-style-type: none !important;
+  padding-left: 0px;
+}
+
+.page-container > nav.navbar > ul > li{
+  font-size: 20px;
+  color: #4c4c4c;
+  background-color: #f5f5f5;
+  padding: 10px 20px 10px 40px;
+  border-bottom: 2px solid white; 
+}
+
+.active{
+  background-color: #e2e0e0 !important;
+}
+
+.page-container > nav.navbar > ul > li:last-child{
+  padding-bottom:10px;
+}
+
+.page-container > .lo-content{
+  width:70%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  padding:5px;
+}
+
+.page-container > .lo-content > .ova2 > .container{
+  margin-top: 60px;
+}
+
+.ova2 > .container > h1{
+  font-size: calc(0.5vw + 19px);
+  margin-left:76px;
+  color: #008b65;
+  font-family: "Roboto", sans-serif;
+  line-height:1em;
+  margin:30px 0 0 0px;
+}
+.ova2 > .container > p{
+  width: 100% !important;
+  font-family: "Roboto",sans-serif!important;
+  font-size: calc(12px + .2vw)!important;
+  font-weight: 400!important;
+  line-height: 1.3em;
+}
+
+.ova2 > .container > p > a:hover{
+  color:#d3122a !important;
+}
+
+.ova2{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
+  padding: 0 20px 0px 20px;
+  background-color: #e0e0e0;
+  width: 35%;
+  height: 230px;
+  min-width: 250px;
+  max-width: 260px;
+  margin: 10px;
+}
+
+#ova-container > .bas{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/CURSO_2_BASICO.jpg');
+  background-position: top;
+  background-size: 100% 32%;
+  background-repeat: no-repeat;
+}
+
+#ova-container > .med{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/CURSO_2_MEDIO.jpg');
+  background-position: top;
+  background-size: 100% 32%;
+  background-repeat: no-repeat;
+}
+
+#ova-container > .hig{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/CURSO_2_AVANZADO.jpg');
+  background-position: top;
+  background-size: 100% 32%;
+  background-repeat: no-repeat;
+}
+
+.bas > .container > h1{
+  color: #008b65 !important;
+}
+
+.med > .container > h1{
+  color: #017ce3 !important;
+}
+
+.med > .container > hr{
+  width: 100%;
+  border-color: #017ce3 !important;
+  border-style: solid;
+}
+
+.hig > .container > h1{
+  color: #572f6b !important;
+}
+
+.hig > .container > hr{
+  width: 100%;
+  border-color: #572f6b !important;
+  border-style: solid;
+}
+
+.ova2 > .container > hr{
+  width: 100%;
+  border-color: #008b65;
+  border-style: solid;
+  margin: 10px 0px !important;
+}
+
+
+.check{
+  cursor:pointer;
+}
+.check > a{
+  padding-left:20px;
+}
+
+
+
+.page-container > .lo-content > div{
+  background-color: #e0e0e0;
+  width: 30%;
+  height: 230px;
+  min-width: 220px;
+  max-width: 242px;
+  margin: 10px;
+}
+
+.page-container > .lo-content > .gr10un1{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado10_unidad01_B.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page-container a{
+  text-decoration:none !important;
+  color: #444 !important;
+  font-weight:400;
+}
+
+.page-container > .lo-content > .gr10un2{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado10_unidad02_B.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr10un3{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado10_unidad03_B.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr10un4{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado10_unidad04_B.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr10un5{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado10_unidad05_B.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr11un1{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado11_unidad01.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr11un2{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado11_unidad02.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.page-container > .lo-content > .gr11un3{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado11_unidad03.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+.page-container > .lo-content > .gr11un4{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado11_unidad04.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+.page-container > .lo-content > .gr11un5{
+  background-image:url('http://objetos.ciersur.co/Resources/ases/introimg/grado11_unidad05.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+
+.page-container > .lo-content > div > .container > h1{
+  font-size: calc(0.5vw + 20px);
+  margin-left:76px;
+  color: #0880af;
+  font-family: "Roboto", sans-serif;
+  line-height:1em;
+  margin:30px 0 0 0px;
+}
+
+.page-container > .lo-content > div > .container > h2{
+  font-size: calc(0.5vw + 15px);
+  color: #0880af;
+  font-family: "Roboto", sans-serif;
+  line-height:1em;
+  margin:8px 0 0 0px;
+  padding-bottom:10px;
+}
+
+.page-container > .lo-content > div > .container > p{
+  width:100%;
+}
+
+.page-container > .lo-content > div > .container > p >a:hover{
+  color:#d3122a !important;
+}
+
+.ova{
+  display:flex;
+  justify-content:space-between;
+  padding-left: 93px;
+}
+
+.button-cont{
+  margin:5px 5px;
+  display:flex;
+  flex-direction:column;
+}
+
+.button-cont > a > .fa{
+  padding:10px;
+  border: 1px solid #d4d4d4;
+  background: #d4d4d4;
+  border-radius:6px;
+  font-size:18px;
+}
+.button-cont > a{
+  color: #444;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom:5px;
+}
+
+.button-cont > a > .fa:hover{
+  background-color: #dfdfdf;
+}
+
+.ova > .container > hr{
+  width: 100%;
+  border-color: #25a9dc;
+  border-style: solid;
+  margin: 10px 0px !important;
+}
+
+.ova > .container > p{
+  font-family: "Roboto", sans-serif;
+  font-size:calc(12px + 0.2vw);
+  font-weight: 400;
+  line-height: 1.3em !important;
+  margin:0px !important;
+}
+.expandable{
+  padding-left:15px !important;
+}
+.fullin .container {
+    width: 98%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.assert{
+  margin-right: 5px;
+  color: #d3122a;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animate{
+  transform: rotate(90deg);
+  
+  
+}
+
+.expanded{
+  display:none;
+  list-style-type: none !important;
+  background-color: #f5f5f5;
+  padding-left:0;
+  margin:0 !important;
+  
+}
+.expanded > li{
+  padding: 10px 10px 10px 80px;
+}
+
+.expanded > li > a > h1{
+  font-size: 18px;
+  font-weight: bolder !important;
+  line-height: 1em;
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.expanded > li > a > p{
+  font-size:17px !important;
+  margin:10px 0px 0px 0px !important;
+  padding-bottom:10px !important;
+  border-bottom: 1px solid #4c4c4c !important;
+}
