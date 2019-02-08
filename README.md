@@ -2,18 +2,16 @@
  
  ## Preparación: Base de datos
  ```SQL 
- CREATE DATABASE moodle35 WITH TEMPLATE moodle34 OWNER usuario;
+ CREATE DATABASE moodle35 WITH TEMPLATE moodle35 OWNER usuario;
  ```
 ## Preparación: Sitio
 ```bash
 mkdir /var/www/moodledata35  
 chmod -R 775 /var/www/moodledata35  
 cd /var/www/html  
-git clone https://github.com/vvbv/moodle.git  
-mv moodle moodle35  
+git clone https://github.com/vvbv/moodle.git  moodle35
 cd moodle35/blocks  
-git clone https://github.com/sistemasases/moduloases.git  
-mv moduloases ases  
+git clone https://github.com/sistemasases/moduloases.git  ases
 ```
 **Cambiar max_execution_time = 30 → max_execution_time = 400 en el siguiente archivo**  
 ```bash
